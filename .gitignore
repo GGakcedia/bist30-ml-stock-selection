@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.vscode/
+
+data/raw/*.csv
+results/backtests/*.csv
+results/metrics/*.csv
+
+*.log
+.DS_Store

@@ -1,0 +1,12 @@
+{
+  "strategy": "top5",
+  "k": 5,
+  "cost_bps": 0.0,
+  "n_days": 441,
+  "cumulative_return": 0.6011066264614104,
+  "sharpe": 1.0710239572583755,
+  "max_drawdown": -0.17169194712232194,
+  "avg_daily_ret": 0.0012365052213862823,
+  "daily_vol": 0.018327238835975448,
+  "avg_turnover": 0.6766439909297052
+}

@@ -1,0 +1,32 @@
+data:
+  start_date: "2015-01-01"
+
+features:
+  feature_cols:
+    - "return_1d"
+    - "return_5d"
+    - "return_21d"
+    - "rsi_14"
+    - "macd"
+    - "volatility_21d"
+    - "dist_sma_50"
+    - "dist_sma_200"
+    - "rsi_14_rank_cs"
+    - "return_1d_rank_cs"
+    - "return_21d_rank_cs"
+  target_col: "target_direction"
+
+model:
+  type: "xgboost"
+  params:
+    max_depth: 3
+    learning_rate: 0.05
+    n_estimators: 100
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+    eval_metric: "logloss"
+
+validation:
+  n_splits: 5
+  gap: 0 # gap between train/test

@@ -1,0 +1,12 @@
+{
+  "threshold": 0.51,
+  "cost_bps": 10.0,
+  "n_days": 441,
+  "cumulative_return": 0.21756039108187464,
+  "sharpe": 0.7017253544088715,
+  "max_drawdown": -0.14369994781847895,
+  "avg_daily_ret": 0.0005144119884334951,
+  "daily_vol": 0.011637084374456711,
+  "avg_turnover_per_row": 0.3287443267776097,
+  "avg_signal_rate": 0.7071104387291982
+}
