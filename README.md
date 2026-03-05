@@ -133,6 +133,19 @@ Pandas-ta
 Matplotlib  
 
 ---
+# How to Run
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Train the model
+
+python -m src.train
+
+Run the backtest
+
+python -m src.backtest
 
 # Disclaimer
 
