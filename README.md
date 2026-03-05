@@ -3,7 +3,20 @@
 This project builds a machine learning pipeline to predict next-day stock direction for BIST30 equities and construct a cross-sectional portfolio strategy.
 
 The model ranks stocks daily based on predicted probabilities and constructs a **Top-K portfolio**.
+---
+Repository Structure
 
+src/
+  data_loader.py      → data download & processing
+  features.py         → feature engineering
+  splits.py           → walk-forward splits
+  train.py            → model training
+  backtest.py         → portfolio backtesting
+
+results/
+  figures/            → strategy charts
+  metrics/            → OOF predictions
+  backtests/          → backtest statistics
 ---
 
 # Project Pipeline
